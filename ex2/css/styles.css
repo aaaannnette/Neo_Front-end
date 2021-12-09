@@ -1,0 +1,264 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;  
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #56CCF2; 
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    align-content: space-between;  
+    height: 100%;   
+}
+
+nav {
+    flex: 1;
+    text-align: start;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block; 
+}
+
+ul li a {
+    text-decoration: none;  
+    color: white;
+    padding: 0 20px;  
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.client {
+    display: contents;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.client > span {
+    padding: 0 10px;
+}
+
+.tabs {
+    background-color: #2D9CDB;
+    height: 120px;
+    width: 100%;
+}
+
+.tabs .container{
+    display: flex;
+    align-items: center;
+    align-content: space-between;  
+    height: 100%;   
+}
+
+.tabs_item {
+    display: inline-grid;
+    justify-items: center;
+    flex: 1;
+    align-items: center;
+}
+
+.fas {
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.active {
+    background-color: #2F80ED;
+    height: 112px;
+    border-bottom: 8px solid white;
+}
+
+.tabs_item:hover {
+    background: #2F80ED;
+    height: 100%;
+}
+
+@media (min-width: 960px) and (max-width: 1280px)   {
+    
+    header .container {
+        margin: 0 25px;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 960px)   {
+    
+    nav {
+        display: none;
+    }
+
+    header .container {
+        margin: 0 25px;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        margin-right: 36px;
+        width: 40px;
+    }
+
+    .hamburger:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+
+    .hamburger_layer:after{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+    .hamburger_layer:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;   
+    }
+    
+}
+
+@media (min-width: 370px) and (max-width: 600px)   {
+    
+    nav, .client > span {
+        display: none;
+    }
+
+    header .container {
+        margin: 0 25px;
+    }
+
+    .logo {
+        flex: 1;
+        font-size: 16px;
+    }
+
+    .fas {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        margin-right: 36px;
+        width: 40px;
+    }
+
+    .hamburger:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+
+    .hamburger_layer:after{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+    .hamburger_layer:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;   
+    }
+    
+}
+
+@media (max-width: 370px)   {
+    
+    nav, .client > span, 
+    img, .tabs_item > span {
+        display: none;
+    }
+
+    header .container {
+        margin: 0 25px;
+    }
+
+    .logo {
+        flex: 1;
+        font-size: 16px;
+    }
+
+    .fas {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        margin-right: 36px;
+        width: 40px;
+    }
+
+    .hamburger:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+
+    .hamburger_layer:after{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;
+    }
+    .hamburger_layer:before{
+        content: '';
+        height: 2px;
+        border-radius: 3px;
+        background-color: white;
+        display: block;
+        margin: 3px 0;   
+    }
+    
+}

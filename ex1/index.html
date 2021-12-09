@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table cellpadding="5px">
+        <thead>
+            <tr>
+                <th colspan="3" height="100">
+                    <h1 align="center"><font color="MidnightBlue">Макет задания по «Основы HTML»</font></h1>
+                    <hr>
+                </th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td width="200"><h2 align="left"><font color="MidnightBlue">Меню</font></h2></td>
+                <td><h2 align="center"><font color="MidnightBlue">Основной контент</font></h2></td>
+                <td width="200" rowspan="2" valign="top">
+                    <div>
+                        <label for="login"> Логин:</label>
+                        <input type="text" id="login" placeholder="Enter your login" height="200">
+                    </div>
+                    <div>
+                        <label for="password"> Пароль: </label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <br>
+                    <div>
+                        <div><label for="name">Выберите роль:</label></div>
+                        <div><select name="name" id="name">
+                                <option>Admin</option>
+                                <option>Tester</option>
+                                <option>User</option>
+                        </select></div>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" id="check" name="check" >
+                        <label for="check">Запомни меня</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Вход">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" valign="top" align="left">
+                    <a href="#">Главная</a><br>
+                    <a href="#">Продукты</a><br>
+                    <a href="#">Кафе</a><br>
+                    <a href="#">Рестораны</a><br>
+                    <a href="#">Вопросы</a><br>
+                    <a href="#">Акции</a><br>
+                </td>
+                <td> 
+                    <p align="left">
+                    <img src="../ex1/img.jpeg" alt="Три богатыря" width="150" height="80" align="right" vspace="5" hspace="5">
+                        Давно выяснено, что при
+                        оценке дизайна и композиции
+                        читаемый текст мешает
+                        сосредоточиться. Lorem Ipsum
+                        используют потому, что тот
+                        обеспечивает более или менее
+                        стандартное заполнение
+                        шаблона, а также реальное распределение букв и
+                        пробелов в абзацах, которое не получается при
+                        простой дубликации "Здесь ваш текст.. Здесь ваш
+                        текст.. Здесь ваш текст.." Многие программы
+                        электронной вёрстки и редакторы HTML используют
+                        Lorem Ipsum в качестве текста по умолчанию, так что
+                        поиск по ключевым словам "lorem ipsum" сразу
+                        показывает, как много веб-страниц всё ещё
+                        дожидаются своего настоящего рождения. За
+                        прошедшие годы текст Lorem Ipsum получил много
+                        версий. Некоторые версии появились по ошибке,
+                        некоторые - намеренно (например, юмористические варианты).<sup>1</sup>
+                    </p>
+                    <ul type="square"> 
+                        <li>
+                            <i>Курсивный пункт<sup>2</sup></i>
+                        </li>
+                        <br>
+                        <li>
+                            <b>Жирный пункт</b>
+                        </li>
+                    </ul>
+                    <h3><font color="MidnightBlue">Список товаров в магазине</font></h3>
+                    <table border="1" cellpadding="5px" width="100%">
+                        <tr>
+                            <th width="10%">Номер</th>
+                            <th>Название</th>
+                            <th width="10%">Цена</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Меч</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Булава</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Верный конь</td>
+                            <td>15</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+            
+        <tfoot>
+            <tr>
+                <td colspan="3"><hr><p>© 2014 Основы HTML</p></td>
+            </tr>
+        </tfoot> 
+    </table>
+
+</body>
+</html>
