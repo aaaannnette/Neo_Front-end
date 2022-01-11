@@ -56,6 +56,7 @@ img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    object-fit: cover;
 }
 
 .client > span {
@@ -64,15 +65,15 @@ img {
 
 .tabs {
     background-color: #2D9CDB;
-    height: 120px;
+    /* height: 120px; */
     width: 100%;
 }
 
 .tabs .container{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     align-content: space-between;  
-    height: 100%;   
+    /* height: 100%;    */
 }
 
 .tabs_item {
@@ -80,6 +81,8 @@ img {
     justify-items: center;
     flex: 1;
     align-items: center;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .fas {
@@ -95,7 +98,7 @@ img {
 
 .tabs_item:hover {
     background: #2F80ED;
-    height: 100%;
+    
 }
 
 @media (min-width: 960px) and (max-width: 1280px)   {
